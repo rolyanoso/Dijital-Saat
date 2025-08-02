@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(18, 18, 45, 0.895);
+
+}
+h2{
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#time{
+   display: flex;
+
+}
+#clock #time div{
+    position: relative;
+    margin:0px 5px;
+    
+ -webkit-box-reflect:below 0.5px linear-gradient(transparent,rgba(186, 177, 177, 0.255)) ; 
+}
+#time div span{
+    display: block;
+    background-color: rgb(96, 97, 117);
+    color:white;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    box-shadow: 2px 2px 5px 0.5px rgba(16, 16, 27, 0.738);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 15px;
+
+}
+#time div span:nth-child(2){
+    border-radius: 0px;
+    color:darkgrey;
+    background-color: rgba(18, 18, 45, 0.079);
+    box-shadow: none;
+    font-size: smaller;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
